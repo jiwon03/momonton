@@ -42,8 +42,28 @@ main {
 .js-toDoForm input {
   border: none;
   background: none;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid whitesmoke;
   font-size: 15px;
-  color: white;
   margin-bottom: 10px;
+  padding-bottom: 3px;
+  text-align: center;
+  color: white;
+}
+.js-form input::placeholder,
+.js-toDoForm input::placeholder {
+  color: whitesmoke;
+}
+.js-toDoList {
+  list-style: none;
+  padding-left: 0;
+}
+.js-toDoList button {
+  margin-right: 10px;
+  border-style: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  font-size: 8px;
+  align-items: center;
+  opacity: 0.4;
 }
